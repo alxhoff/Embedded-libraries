@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/main.h
+
+/home/alxhoff/git/GitHub/Project-templates/AVR/mega328p/src/main.c
+avr/io.h
+-
+util/delay.h
+-
+main.h
+/home/alxhoff/git/GitHub/Project-templates/AVR/mega328p/src/main.h
+
