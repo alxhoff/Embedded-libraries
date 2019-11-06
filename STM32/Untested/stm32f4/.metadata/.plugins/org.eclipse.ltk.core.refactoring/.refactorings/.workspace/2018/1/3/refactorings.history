@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/hackdays/Inc/tm_stm32f4_delay.h" element2="/hackdays/Src/tm_stm32f4_delay.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1516310307954"/>
+</session>

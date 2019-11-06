@@ -1,0 +1,16 @@
+/*
+ * sonar.h
+ *
+ *  Created on: Jan 18, 2018
+ *      Author: alxhoff
+ */
+
+#ifndef SONAR_H_
+#define SONAR_H_
+
+#define HCSR04_SCALAR = ((float)0.0171821)
+
+int query_sonar(GPIO_TypeDef* trig_port, uint16_t trig_pin,
+		GPIO_TypeDef* echo_port, uint16_t echo_pin);
+
+#endif /* SONAR_H_ */
